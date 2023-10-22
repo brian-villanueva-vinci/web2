@@ -1,0 +1,17 @@
+@baseUrl = http://localhost:3000
+
+### get all film
+GET {{baseUrl}}/films
+
+### Delete film identified by 2
+DELETE {{baseUrl}}/films/2
+
+### Update the pizza identified by 2
+PATCH {{baseUrl}}/films/3
+Content-Type: application/json
+
+{
+    "duration":1000
+}
+
+

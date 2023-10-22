@@ -1,0 +1,12 @@
+@baseUrl = http://localhost:3000
+
+### Create one movie
+POST {{baseUrl}}/films
+Content-Type: application/json
+
+{
+    "title":"Ratatouille",
+    "duration":"2",
+    "budget":"1",
+    "link":"oue"
+}
